@@ -1,0 +1,110 @@
+ body{
+    background-image: url("https://media.istockphoto.com/id/1196497566/video/imitation-of-an-old-film-overlay-for-the-frame-on-a-black-background-with-fibers-and-grain-hd.jpg?s=640x640&k=20&c=DCVv69IE5bOMDt6-3J2R_Kr6BuMOMmT9g0wHgA0oKQ8=");
+    background-repeat: no-repeat; 
+  background-size: cover;
+ }
+ 
+ .svg1{
+     height: 30px;
+     width: 30px;
+ }
+ .top{
+     display:flex;
+ }
+ 
+ .powered{
+     position: relative;
+     color: gray;
+     font-size: 27px;
+     font-family: 'Righteous', cursive;
+     margin-top: -1%;
+     margin-left: 5%;
+ }
+ 
+ .titleNew{
+     position: relative;
+     color: gray;
+     font-size: 23px;
+     font-family: 'Aboreto', cursive;
+     margin-top: -5%;
+     margin-left: 2%;
+ }
+ 
+ 
+ 
+ .mapDiv{
+  position: relative;
+  top: -10px;
+  width: 100%;
+  height: 200px;
+  left: 0%;
+  background: #000000;
+  border-radius: 20px;
+  border: 3px solid gray;/*
+  border-radius: 20px;*/
+ }
+ 
+ .demoDiv{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 17px;/*
+    border: 1px solid gray;
+    border-radius: 20px;*/
+ }
+  
+ 
+.spanLine{
+    position: relative;
+    width: 150px;
+    height: 4px;
+    background: #00ee00;
+    z-index: 9999999999;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+ 
+ 
+.gif{
+  width: 50%;
+  /*height: 100px;*/
+  /*border: 6px solid #000000;
+  border-radius: 100px;*/
+  padding-left: 25%;
+  padding-top: 7%;
+}
+ 
+ 
+.geo{
+    position:relative;
+    color: #7D7C7C;
+    font-size: 5px;
+    margin-left: 3%;
+    padding-top: 3px;
+    color: #004225;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
