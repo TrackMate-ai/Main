@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <title>TrackMate</title>
+    <link href="Login.css" rel="stylesheet">
+    <script src="Login.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  </style>
+</head>
+<body>
+
+
+
+
+         
+
+    <image class="icon" src="assets/images/logo-icon.png"> </image>
+
+
+    <p class="title"> Sign In </p>
+  
+
+
+
+    <form class="form">
+       
+        <div class="input-container">
+           <input type="email" placeholder="Enter email" id="username">
+           <span>
+           </span>
+       </div>
+
+       <div class="input-container">
+           <input type="password" placeholder="Enter password" id="passwordIn">
+       </div>
+          
+          <button type="button" class="submit" onClick="signInFirebase()">
+              Sign in
+          </button>
+ 
+       <p class="signup-link">
+         No account?
+         <a href="">Sign up</a>
+       </p>
+    </form>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
