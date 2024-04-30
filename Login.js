@@ -19,7 +19,7 @@ function signInFirebase(){
       firebase.auth().signInWithEmailAndPassword(email, password)
         .then(function(user) {
 
-          window.location.href=("index.html");
+          window.location.href=("Main.html");
             
         })
         .catch(function(error) {
