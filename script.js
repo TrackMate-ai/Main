@@ -85,13 +85,6 @@ function trackDevice(){
 }
 
 
-function submitVerify() {
-    
-    var verifyEmail = document.getElementById("inputVerify").value;
-    document.getElementById('popup').style.display='none'
-          
-
-}
 
 
 
