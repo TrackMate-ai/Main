@@ -1,19 +1,29 @@
 
-
 function submitVerifyy(){
 
       var inputVerif = document.getElementById("inputVerify").value;
       var popup = document.getElementById("popup");
       var popup2 = document.getElementById("popup2");
+      var infoText = document.getElementById("infoText");
+      var phoneImg = document.getElementById("phoneImg");
       
       popup.style.display="none";
 
+      var textI=""
+
       if(inputVerif=="gmasele15@gmail.com"){
-           alert("Gale Masele")
+           
+          phoneImg.src = "https://www.imei.info/static/vbe54e0d2/imei/img/no_photo.png";
+    
            popup2.style.display="block";
+           infoText.innerHTML=(" Status: <font color=#00ee00>Found</font><br/> Model Info: ITEL<br/>Search Term: 355095716888384<br/>IMEI 1: 355095716888384<br/> Model Desc: A632W<br/>  Model Name: Itel A632W<br/>Brand: Itel Technology Limited<br/> ");
+
       }
 
 }
+
+
+
 
 
 
