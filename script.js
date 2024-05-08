@@ -20,6 +20,15 @@ function submitVerifyy(){
 
       }
 
+      if(inputVerif=="ashrafprofessor30@gmail.com"){
+           
+            phoneImg.src = "https://www.imei.info/static/vbe54e0d2/imei/img/no_photo.png";
+    
+           popup2.style.display="block";
+           infoText.innerHTML=(" Status: <font color=#00ee00>Found</font><br/> Model Info: ITEL<br/>Search Term: 355095716888384<br/>IMEI 1: 355095716888384<br/> Model Desc: A632W<br/>  Model Name: Itel A632W<br/>Brand: Itel Technology Limited<br/> ");
+
+      }
+
 }
 
 
