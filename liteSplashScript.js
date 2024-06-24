@@ -22,7 +22,7 @@ function signInFirebase(){
             
             
             
-          alert("Successful");
+          window.location.href=("lite.html");
           
             
         })
