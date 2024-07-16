@@ -13,7 +13,7 @@ function submitVerifyy(){
 
       if(inputVerif=="gmasele15@gmail.com"){
            
-          phoneImg.src = "https://www.imei.info/static/vbe54e0d2/imei/img/no_photo.png";
+          phoneImg.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg";
     
            popup2.style.display="block";
            infoText.innerHTML=(" Status: <font color=#00ee00>Found</font><br/> Model Info: ITEL<br/>Search Term: 355095716888384<br/>IMEI 1: 355095716888384<br/> Model Desc: A632W<br/>  Model Name: Itel A632W<br/>Brand: Itel Technology Limited<br/> ");
@@ -22,10 +22,10 @@ function submitVerifyy(){
 
       if(inputVerif=="ashrafprofessor30@gmail.com"){
            
-            phoneImg.src = "https://www.imei.info/static/vbe54e0d2/imei/img/no_photo.png";
+            phoneImg.src = "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg";
     
            popup2.style.display="block";
-           infoText.innerHTML=(" Status: <font color=#00ee00>Found</font><br/> Model Info: ITEL<br/>Search Term: 355095716888384<br/>IMEI 1: 355095716888384<br/> Model Desc: A632W<br/>  Model Name: Itel A632W<br/>Brand: Itel Technology Limited<br/> ");
+           infoText.innerHTML=(" STATUS: <font color=#00ee00>Found</font><br/>IMEI: <font color=#00ee00> 355364328403408</font><br/>  Model: iPhone 14 Plus(A2888)<br/>Brand: APPLE <br/>DeviceType:  Smartphone<br/>  Location: <font color=#ff0000>  Hidden(Payment Required)</font><br/>  Country Code: BW<br/>  Country Name: Botswana ");
 
       }
 
