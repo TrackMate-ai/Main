@@ -1,7 +1,11 @@
  
 
 body{
-    background: #000000;
+    background-image: url('Img/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    text-align: center;
     padding: 15px 15px 0px 15px;
 }
 
@@ -17,7 +21,7 @@ body{
   background-color: rgba(17, 24, 39, 1);
   padding: 2rem;
   color: rgba(243, 244, 246, 1);
-  background: #000000;
+  background: transparent;
 }
 
 .title {
