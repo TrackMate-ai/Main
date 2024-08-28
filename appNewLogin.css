@@ -1,4 +1,20 @@
  
+@font-face {
+    font-family: "Good Times Rg";
+    src: url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.eot");
+    src: url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.woff2")
+        format("woff2"),
+      url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.woff")
+        format("woff"),
+      url("https://www.yudiz.com/codepen/artificial-intelligence/fonts/good_times/GoodTimesRg-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
 
 body{
     background-image: url('Img/2.png');
@@ -10,6 +26,14 @@ body{
 }
 
 
+
+
+.loginn{
+    color: #E90074;
+    font-size: 12px;
+    margin-top: -6%;
+    font-family: "Good Times Rg";
+}
 
 
 
